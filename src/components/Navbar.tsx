@@ -33,7 +33,7 @@ return (
                                     )}
                                     {user ? null :(<span className="h-6 w-px bg-slate-200" aria-hidden="true" />)}
 
-                                    {user ? <p></p> : <Link href="/sign-up" className={buttonVariants({variant: "default"})}>Create an account</Link> }
+                                    {user ? <p></p> : <Link href="/sign-up" className={buttonVariants({variant: "outline"})}>Create an account</Link> }
 
                                     {user ? null :(<span className="h-6 w-px bg-slate-200" aria-hidden="true" />)}
 
